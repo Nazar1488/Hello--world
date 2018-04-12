@@ -1,12 +1,12 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
-using System.IO;
-namespace lab4
+using System.Windows.Forms;
+
+namespace Завдання_4__String_
 {
-    class Program
+    static class Program
     {
         public static int counting(string a)
         {
@@ -174,10 +174,13 @@ namespace lab4
             }
         }
         static void Main(string[] args)
+
+        static void Main()
+
         {
-            string Mainstring = "";
-            Menu(Mainstring);
-            Console.ReadKey();
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Form1());
         }
     }
 }

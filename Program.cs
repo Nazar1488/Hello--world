@@ -176,6 +176,7 @@ namespace lab4
         static void Main(string[] args)
         {
             string Mainstring = "";
+            Console.Writeline("Hello world");
             Menu(Mainstring);
             Console.ReadKey();
         }

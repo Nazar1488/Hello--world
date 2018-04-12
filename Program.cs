@@ -10,7 +10,7 @@ namespace lab4
     {
         public static int counting(string a)
         {
-            const string golosni = "AaEeIiOoYyUu";
+            const string loud = "AaEeIiOoYyUu";
             int cnt = 0;
             for (int i = 0; i < a.Length; ++i)
             {
